@@ -26,6 +26,9 @@ if (window.location.href.indexOf("watch") > -1) {
 			}
 		}
 
+		var replacements = ["Wow Great Video! :)", "This is a positive comment :D", "Live, laugh, love <3", "You are amazing","Keep it up!"];
+		var textVal = 0;
+		
         fetch(url, fetchData) // Call the fetch function passing the url of the API as a parameter
         .then(function(res) {
 			return res.json();
@@ -34,7 +37,10 @@ if (window.location.href.indexOf("watch") > -1) {
 			console.log(myJson);
 			console.log(myJson.message);
 			 if (myJson.message == "bad") {
-				commentItem.style.color = "white";
+				commentItem.style.color = "limegreen";
+				commentItem.style.bold = "true";
+				commentItem.textContent = replacements[textVal];
+				textVal++;
 			}
         })
         .catch(function() {
