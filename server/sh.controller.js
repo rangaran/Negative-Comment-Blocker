@@ -11,7 +11,7 @@ var magnitude = 0;
 
 exports.comment_create = function (req, res, next) {
 	//grab comment 
-	const comment = req.body.document;
+	const comment = req.body.john;
 	//store in natural language api format 
 	const document = {
 	  content: comment,
@@ -33,12 +33,12 @@ exports.comment_create = function (req, res, next) {
 			//if score is lower than 0 - its probably too negative for us 
 			if(score < 0){
 			//bad comment 
-			res.send(JSON.stringify({ message: "bad" }));
+			res.send({ message: "bad" });
 			}
 			//above 0 means the comment is generally positive 
 			else {
 				//good comment 
-			res.send(JSON.stringify({ message: "good" }));
+			res.send({ message: "good" });
 			}
 			})
 		  .catch(err => {
