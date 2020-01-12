@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "shehacksproject-264819",
+  "private_key_id": "734ed6d93cd018961d311d107c4e82919f3dd52a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2yWG3agFDACtp\nlZ44o6vuqUZM9iBbZN4BYDh3X9GF0agv2saUQja61UCTZp4zn+qCFYH2NSdN6Ls9\n2DRxnhtZ71xYCD2GOcH+JxFhARe3rPGvudRyKlcDDj/v8whYWRRjFzjjGB4Kv7kD\njjre/3TUcgVhgaAMCv3uUBySGvzvPlyOMGzQG1ZQ3HOLhi8BvmzD8JKq4a0PYH0f\n6YtyZ4F9YgH0HnEhwUAodFB29XWpCf8iTKXdFbKXJ6dWJC5O63MbyQcUPzKSp1vU\nhTC+R3LZzaYJjHQapC98NhlUXGVcZbsGdK+k1UfDh12OnYqIyONGSQNhqqHGUYjz\nXnsBGDT9AgMBAAECggEAJ6O3lcOe321XfM/OHsFb5Wd/T+xmavuOa6T2yeiVMxyb\nCTm8K+XKIa1ikjTEZTSuciSA6ShwzCQHCyvqf6NGkjPnBk5PLV80M048phlLD/Go\n/i9iI5oMAaUi94HwktxKoAymsRUHWtRmJp+/I6Ipr3LEuPcYAtSVagukjojcxnMU\nnAk1Si01QEL8gZs0zA/FVcaOzXz2YJprzDMGxBfILtkfCO79yFbfsAHF7/8QZvbY\ndr2ub3wVATXksT7rmw+7k47DV4aIdSLlWs3WVFCMXPM/YFy930SYoi2SGBQ0QwbS\n1XpfahuDZG1J/c6+iSRNjhPoO5k4R0Qz7Hedgt8IYQKBgQD2DLUStOrdhISrINN+\nwYJnsE+JJJ6fXz9LHo0oxbUXHo7NUItPa1vB7/t3BMmhTjdAnvlqEPkLkKBUMNea\n0aHK9JV3ZyiE8kkTvkqDkVaI7dtVdAEX6YPwoU52wubWHcnQeB8W2IiSeymefKM4\n131D41qeZjS2xYqMCfVklTj6EQKBgQC+LbpVzafHGSlAk0RUKsohPPODoQzrfY4C\nbsC5QfSBuJV6womUziJFRt1XUfcVEEG8w6T9AN6i4J1Rz26xskYbHti6GVOrEM3E\n2sISl1U/hnREinuRb6WzVfYVw2SalEPbRq/JVSP224qicBsdBIGVfac2lRtDpFIH\n0vwF/pBALQKBgC06ksJ4jT/hDz4hz57aVW1YBJbSK3JiYNEfMZWQGkTAskFdj+4u\nbvSMd64eLC5BoXh4gKKVsiIFGOPBArEL3fDf2uXTCai+nN5LOYlL2xtaldn0dAsA\nOuetzy2XkDVFzoZKvnRFo31BtJnUkXBudDFZhpvdb801LM2nOvudTpbxAoGAdho5\nvG1Rww/6EVMjPM2x5wBODbFnL5syJIqY/rNZ33E8yxaikBmPKMyASmjpc1g8Krio\n7kGrASVSLWsPSCT46oC2gKOX1QVDc/uSSC9YznF2JNaHNGNMWNmKUCuef2yR00vL\ngNFx2yytpIDQJa4VtztoKzpfyxrxolBBGIvlEyUCgYEArQP67lD83YboeGcpEN4j\nzcQ/wzLxCMXYEePfKJF7dreKsjM4R7lQATgSYc/DtFH3rTKfrS8VGcVK2lz2Ckv3\n1UBty5PpB4O2lbDitNN52pCeaUrG2+Da7SbS5ju7l0GKg3sSHnv1InQyWHFN2bNp\nnrVaMbGxtNVlET9OgRnxKg4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ownerserviceaccount@shehacksproject-264819.iam.gserviceaccount.com",
+  "client_id": "103796690879482507966",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ownerserviceaccount%40shehacksproject-264819.iam.gserviceaccount.com"
+}
