@@ -1,35 +1,51 @@
 setTimeout(function() {
 
 if (window.location.href.indexOf("watch") > -1) {
-    var i = 0;
-
-    while (document.querySelectorAll("yt-formatted-string#content-text")[i].textContent){
-        let data = document.querySelectorAll("yt-formatted-string#content-text")[i].textContent;
+    //while (document.querySelectorAll("yt-formatted-string#content-text")[i].innerHTML
+	for (let commentItem of document.querySelectorAll("yt-formatted-string#content-text")){
+        console.log(commentItem);
+		let data = commentItem.innerHTML;
         console.log(data);
 
-        let fetchData = {
-            method: 'POST',
-            body: data,
-            headers: new Headers()
-        }
+       // let fetchData = {
+        //    body: "docum
+       //     headers: new Headers()
+       // };
 
         const url = 'http://localhost:3000/api/add/comment';
+ 
+		let comment = {
+			john: data
+		}
+		// The parameters we are gonna pass to the fetch function
+		let fetchData = { 
+			method: 'POST', 
+			body: JSON.stringify(comment),
+			headers: {
+				'Content-Type': 'application/json'
+			}
+		}
 
         fetch(url, fetchData) // Call the fetch function passing the url of the API as a parameter
-        .then(function() {
-            // Your code for handling the data you get from the API
+        .then(function(res) {
+			return res.json();
+		}).then((myJson) => {
+			console.log(data);
+			console.log(myJson);
+			console.log(myJson.message);
+			 if (myJson.message == "bad") {
+				commentItem.style.color = "white";
+			}
         })
         .catch(function() {
             // This is where you run code if the server returns any errors
         });
 
-        if (data) {
-            document.querySelectorAll("yt-formatted-string#content-text")[i].style.color = "white";
-        }
-
-        i++;
+        // if (data) {
+            // commentItem.style.color = "white";
+        // }
     }
 }
 
-},5000);
+},10000);
 
